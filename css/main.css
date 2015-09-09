@@ -13,9 +13,6 @@ body {
     color: #838994;
     letter-spacing: 0.05em;
 }
-div {
-    border: 1px solid Chocolate;
-}
 
 /* Navigation Section */
 .top-navigation {
@@ -23,13 +20,20 @@ div {
 	position: fixed;
 	width: 100%;
 	z-index: 9999;
+	border-bottom: 1px solid
 }
+
+
 
 .content {
 	width: 970px;
 	height: 70px;
 	margin: 0 auto;
 	padding: 0 15px;
+}
+
+.content-social {
+	text-align: center;
 }
 
 
@@ -123,6 +127,7 @@ top: -25px;
 .cases .devices {
 	width: 33.3333333%;
 	float: left;
+	text-align: center;
 }
 
 .cases .devices h3 {
@@ -135,6 +140,11 @@ top: -25px;
 
 /* Footer Section */
 
+.social {
+	float: left;
+	width: 100%;
+	margin: 0 auto;
+}
 
 .social hr {
     border: 0;
@@ -154,13 +164,17 @@ top: -25px;
 	display: inline-block;
 }
 
+.social li i{
+	width: 38px;
+}
+
 .social .icons {
 	text-align: center;
 	position: relative;
 }
 
 .social .fa-twitter {
-	color:  #55acee;
+	color: #55acee;
 	border-radius: 50%;
 	border: 1px solid #eaebec;
 	padding: 10px;
@@ -186,6 +200,8 @@ top: -25px;
 	text-align: center;
 }
 
-	
+ul.icons {
+	padding-left: 0;
+}
 
 
